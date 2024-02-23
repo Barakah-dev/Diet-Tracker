@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #999;
+  color: white;
+  
+}
+.container{
+  margin: 0 auto;  
+}
+header{
+  background-color: #333;
+  color: aqua;
+  text-align: center;
+  padding: 20px;
+}
+.track-diet{
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: 30px;
+}
+.diet-list{
+  position: relative;
+  list-style: none;
+}
+.diet-list li{
+  border-bottom: 1px solid aliceblue;
+  padding: 12px 0;
+}
+#meal_id, #major, #minor{
+  font-size: 20px;
+  display: inline;
+}
+#calory{
+  padding: 5px 0;
+}
+#edit-btn{
+  color: black;
+  background-color: aliceblue;
+  position: absolute;
+  right: 60px;
+  border: 1px solid aliceblue;
+  padding: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#delete-btn{
+  color: red;
+  background-color: aliceblue;
+  position: absolute;
+  right: 30px;
+  border: 1px solid aliceblue;
+  padding: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+#delete:hover{
+  background-color: red;
+  color: aliceblue;
+  border: 1px solid red;
+}
+.track-diet .btn{
+  font-size: 17px;
+  background-color: lawngreen;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.9);
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+}
+.btn:hover{
+  background-color: limegreen;
+  transform: scale(1.1);
+}
+.btn span{
+  font-size: 15px;
+  border: 1px solid black;
+  padding: 0px 4px;
+  border-radius: 10px;
+}
+.diet-input{
+  display: none;
+  padding: 30px;
+  width: 85%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.diet-input input{
+  width: 100%;
+  padding: 12px;
+  margin: 15px auto;
+}
+.btn-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.diet-input button{
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.9);
+  /* background-color: lawngreen; */
+}
+.cancel{
+  background-color: rgb(255, 140, 0);
+}
+.cancel:hover{
+  background-color: orangered;
+  transform: scale(1.1);
+}
+.save{
+  background-color: lime;
+}
+.save:hover{
+  background-color: limegreen;
+  transform: scale(1.1);
+}
